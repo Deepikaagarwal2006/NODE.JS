@@ -8,6 +8,6 @@ fs.watch("intro.txt" ,(eventType,filename)=>{
 setTimeout(() => {
      watcher.close()
     console.log("Watched Closed")
-} , 5000)
+} , 4000)
     
     
