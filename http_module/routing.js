@@ -11,9 +11,9 @@ const server = http.createServer((req, res) => {
         // res.end("About Page");
     }
 
-    if (req.url === "/contact") {
-        res.end("Contact Page");
-    }
+    // if (req.url === "/contact") {
+    //     res.end("Contact Page");
+    // }
      
 
 });
